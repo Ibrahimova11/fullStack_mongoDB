@@ -71,7 +71,7 @@ app.get("/api/artists", (req, res) => {
       await newArtist.save();
       res
         .status(201)
-        .send({ message: "Artists  added!", artist: newArtist });
+        .send({ message: "Artists successful added!", artist: newArtist });
     }
   );
 
@@ -109,7 +109,7 @@ app.get("/api/artists", (req, res) => {
       await newNfts.save();
       res
         .status(201)
-        .send({ message: "Nfts  added!", nfts: newNfts });
+        .send({ message: "Nfts successful  added!", nfts: newNfts });
     }
   );
 
