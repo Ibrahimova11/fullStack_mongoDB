@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.app__footer {
+    background-color: #3b3b3b;
+    padding: 40px 0;
+    border-top: 2px solid #2b2b2b;
+}
+.app__footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+.app__footer__content__right {
+    width: 285px;
+}
+.app__footer__content__right__joinour {
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: #ccc;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.app__footer__content__right__text {
+    padding: 20px 0 30px 0;
+    font-size: 1rem;
+    color: #ccc;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-family: "Work Sans", sans-serif;
+}
+.app__footer__content__right__icon {
+    display: flex;
+    justify-content: space-between;
+    width: 158px;
+}
+.app__footer__content__right__icon a {
+    border-radius: 8px;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+}
+.app__footer__content__right__icon a:hover {
+    background-color: lightgrey;
+    transition: 0.6s;
+}
+.app__footer__content__middle {
+    padding-top: 5px;
+}
+.app__footer__content__middle h4 {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+.app__footer__content__middle ul li {
+    padding-bottom: 30px;
+}
+.app__footer__content__middle ul li a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.app__footer__content__middle ul li:hover a {
+    color: #8e3cfa;
+    transition: 0.4s;
+}
+.app__footer__content__left {
+    padding-top: 5px;
+    width: 420px;
+}
+.app__footer__content__left h4 {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+.app__footer__content__left p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 400;
+    transition: 0.4s;
+    width: 330px;
+    line-height: 22px;
+}
+.app__footer__content__left div {
+    background-color: white;
+    border-radius: 19px;
+    margin-top: 20px;
+    display: flex;
+}
+.app__footer__content__left div input {
+    border: none;
+    border-radius: 19px;
+    width: 320px;
+}
+.app__footer__content__left div [placeholder~="email"] {
+    padding: 0 10px;
+    font-size: 1rem;
+}
+.app__footer__content__left div button {
+    padding: 19px 50px;
+    border-radius: 20px;
+    background-color: #2b2b2b;
+    border: 0 solid transparent;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background-color: #8e3cfa;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.6s;
+    font-size: 1rem;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+}
+.app__footer__content__left div button img {
+    display: none;
+}
+.app__footer__bottom {
+    margin-top: 33px;
+    border-top: 1px solid #858584;
+    height: 50px;
+    padding-top: 20px;
+}
+.app__footer__bottom span {
+    color: #ccc;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.app__footer {
+    background-color: #3b3b3b;
+    padding: 40px 0;
+    border-top: 2px solid #2b2b2b;
+}
+.app__footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+.app__footer__content__right {
+    width: 285px;
+}
+.app__footer__content__right__joinour {
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: #ccc;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.app__footer__content__right__text {
+    padding: 20px 0 30px 0;
+    font-size: 1rem;
+    color: #ccc;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-family: "Work Sans", sans-serif;
+}
+.app__footer__content__right__icon {
+    display: flex;
+    justify-content: space-between;
+    width: 158px;
+}
+.app__footer__content__right__icon a {
+    border-radius: 8px;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+}
+.app__footer__content__right__icon a:hover {
+    background-color: lightgrey;
+    transition: 0.6s;
+}
+.app__footer__content__middle {
+    padding-top: 5px;
+}
+.app__footer__content__middle h4 {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+.app__footer__content__middle ul li {
+    padding-bottom: 30px;
+}
+.app__footer__content__middle ul li a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.app__footer__content__middle ul li:hover a {
+    color: #8e3cfa;
+    transition: 0.4s;
+}
+.app__footer__content__left {
+    padding-top: 5px;
+    width: 420px;
+}
+.app__footer__content__left h4 {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+.app__footer__content__left p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 400;
+    transition: 0.4s;
+    width: 330px;
+    line-height: 22px;
+}
+.app__footer__content__left div {
+    background-color: white;
+    border-radius: 19px;
+    margin-top: 20px;
+    display: flex;
+}
+.app__footer__content__left div input {
+    border: none;
+    border-radius: 19px;
+    width: 320px;
+}
+.app__footer__content__left div [placeholder~="email"] {
+    padding: 0 10px;
+    font-size: 1rem;
+}
+.app__footer__content__left div button {
+    padding: 19px 50px;
+    border-radius: 20px;
+    background-color: #2b2b2b;
+    border: 0 solid transparent;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background-color: #8e3cfa;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.6s;
+    font-size: 1rem;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+}
+.app__footer__content__left div button:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.app__footer__content__left div button:hover {
+    background-color: #8e3cfa;
+}
+
+
+.app__footer__content__left div button img {
+    display: none;
+}
+.app__footer__bottom {
+    margin-top: 33px;
+    border-top: 1px solid #858584;
+    height: 50px;
+    padding-top: 20px;
+}
+.app__footer__bottom span {
+    color: #ccc;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+

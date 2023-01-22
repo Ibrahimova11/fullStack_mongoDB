@@ -1,7 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
+import {routes} from './Routes/routes'
+
 
 function App() {
   return (
-   <div>salam</div>
+    <RouterProvider router={routes}/>
   );
 }
+
 export default App;

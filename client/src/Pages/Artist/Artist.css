@@ -1,0 +1,41 @@
+.Artist {
+    width: 100%;
+    background-color: #3b3b3b;
+}
+.form {
+    width: 400px;
+    height: 500px;
+    border: 5px solid rgb(41, 2, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 15px 12px 2px 1px rgb(107, 6, 133);
+    margin-left: 450px;
+    background-color: rgb(108, 13, 197);
+   
+}
+.form input {
+    width: 300px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 25px;
+    border: 2px solid black;
+    margin-left: 50px;
+    background-color: rgb(192, 145, 236);
+    
+}
+.form button {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 150px;
+    border: 3px solid black;
+    background-color: blue;
+    cursor: pointer;
+}
